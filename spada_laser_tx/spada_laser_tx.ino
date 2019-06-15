@@ -24,7 +24,7 @@ void setup() {
 
   vw_set_tx_pin(WIFI_PIN);
 //  vw_set_ptt_inverted(true);
-  vw_setup(2000);      // Bits per sec
+  vw_setup(6000);      // Bits per sec
 
   digitalWrite(LED_PIN, HIGH);
 }
